@@ -1,0 +1,125 @@
+.heroContainer {
+    position: relative;
+    
+  }
+  .heroImage {
+    width: 100%;
+  }
+  
+  .heroImage img {
+    width: 100%;
+  }
+  .heroText {
+    color: white;
+    position: absolute;
+    z-index: 222222;
+    top: 20%;
+    left: 3%;
+  }
+  .heroText p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 94px;
+    letter-spacing: -0.05em;
+    
+    color: #FFFFFF;
+    }
+  .mobileHeroText {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1050px) {
+    .heroText p {
+      color: white;
+      line-height: 35px;
+      text-align: center;
+    }
+    .mobileHeroText {
+      display: none;
+    }
+    .heroText {
+      color: white;
+      position: absolute;
+      z-index: 222222;
+      top: 15%;
+      left: 40%;
+     
+    }
+  
+    .heroText p {
+      font-size: 36px;
+      font-weight: bold;
+      line-height: 71px;
+      margin: 0px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 680px) {
+      .heroText p {
+          font-size: 30px;
+          font-weight: bold;
+          line-height: 45px;
+          margin: 0px;
+        }
+  }
+  
+  
+  @media screen and (max-width: 480px) {
+    .heroText {
+      display: none;
+    }
+    .mobileHeroText {
+      display: block !important;
+      color: white;
+      text-align: center;
+      position: absolute;
+      z-index: 222222;
+      top: 18%;
+      left: 25%;
+   
+  
+    }
+    .mobileHeroText p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 43px;
+        text-align: center;
+        letter-spacing: -0.05em;
+      margin: 0px;
+      text-align: center;
+  }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .heroText {
+      display: none;
+    }
+    .mobileHeroText {
+      display: block !important;
+      color: white;
+      text-align: center;
+      position: absolute;
+      z-index: 222222;
+      top: 18%;
+      left: 25%;
+   
+  
+    }
+    .mobileHeroText p {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: -0.05em;
+      margin: 0px;
+      text-align: center;
+  }
+  }
+  

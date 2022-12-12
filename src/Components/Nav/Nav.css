@@ -1,0 +1,24 @@
+.navBar{
+    background: #292929;
+  padding: 20px 45px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  
+  }
+  
+  .navLogo{
+      border: 1px solid white;
+      padding: 8px;
+      color: white;
+  }
+  
+  @media screen and (max-width:1050px) {
+      .navBar{
+          background: #292929;
+        padding: 20px 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+  }
